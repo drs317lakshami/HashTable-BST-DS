@@ -12,8 +12,6 @@ public class BinaryNode<K extends Comparable<K>> {
         this.left = null;
         this.right = null;
     }
-
-
     @Override
     public String toString() {
         StringBuilder nodeString = new StringBuilder();
